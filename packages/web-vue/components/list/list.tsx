@@ -309,6 +309,7 @@ export default defineComponent({
         [`${prefixCls}-bordered`]: props.bordered,
         [`${prefixCls}-split`]: props.split,
         [`${prefixCls}-hover`]: props.hoverable,
+        [`${prefixCls}-grid`]: props.gridProps,
       },
     ]);
 
